@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/converter_de"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:id="@+id/rb_celsius"
+                android:layout_marginLeft="45dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/temp_celsius"/>
+
+            <RadioButton
+                android:id="@+id/rb_fahrenheit"
+                android:layout_marginLeft="21dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/temp_fahrenheit"/>
+
+            <RadioButton
+                android:id="@+id/rb_kelvin"
+                android:layout_marginLeft="21dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/temp_kelvin"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/comprimento_valor_text"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtValorToCalc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/converter_para"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/cb_celsius"
+            android:layout_marginLeft="45dp"
+            android:text="@string/temp_celsius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <CheckBox
+            android:id="@+id/cb_fahrenheit"
+            android:layout_marginLeft="21dp"
+            android:text="@string/temp_fahrenheit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:id="@+id/cb_kelvin"
+            android:layout_marginLeft="21dp"
+            android:text="@string/temp_kelvin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16px"
+            android:text="@string/comprimento_btnCalcular_text"
+            android:layout_gravity="center_horizontal"
+            android:onClick="calcCFK"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/resultado_celsius"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtResultado_celsius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:enabled="false"
+            android:inputType="numberDecimal"
+            android:padding="20dp"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/resultado_fahrenheit"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtResultado_fahrenheit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:enabled="false"
+            android:inputType="numberDecimal"
+            android:padding="20dp"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/resultado_kelvin"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtResultado_kelvin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:enabled="false"
+            android:inputType="numberDecimal"
+            android:padding="20dp"
+            android:textColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+</ScrollView>

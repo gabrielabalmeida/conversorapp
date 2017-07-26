@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Converter 2.0</string>
+    <string name="comprimento_btnCalcular_text">Calculate</string>
+    <string name="comprimento_centimetro">Centimeter</string>
+    <string name="comprimento_de_text">From:</string>
+    <string name="comprimento_metro">Meter</string>
+    <string name="comprimento_milha">Mile</string>
+    <string name="comprimento_para_text">To:</string>
+    <string name="comprimento_pe">Feet</string>
+    <string name="comprimento_resultado_text">Result</string>
+    <string name="comprimento_valor_text">Value:</string>
+    <string name="label_comprimento">Length converter</string>
+    <string name="massa_grama">Gram</string>
+    <string name="massa_libra">Pounds</string>
+    <string name="comprimento_polegada">Inch</string>
+    <string name="comprimento_quilometro">Kilometer</string>
+    <string name="label_massa">Mass converter</string>
+    <string name="main_btnComprimento_text">Length measures</string>
+    <string name="main_btnMassa_text">Mass measures</string>
+    <string name="massa_onca">Ounce</string>
+    <string name="massa_quilograma">Kilogram</string>
+    <string name="vlrinld">Invalid value</string>
+    <string name="converter_de">From</string>
+    <string name="converter_para">To</string>
+    <string name="label_temperatura">Temperature converter</string>
+    <string name="main_btnTemperatura_text">Temperature converter</string>
+    <string name="resultado_celsius">Celsius result</string>
+    <string name="resultado_fahrenheit">Fahrenheit result</string>
+    <string name="resultado_kelvin">Kelvin result</string>
+    <string name="CFK">Temperature converter</string>
+    <string name="temp_kelvin">Kelvin</string>
+    <string name="temp_fahrenheit">Fahrenheit</string>
+    <string name="temp_celsius">Celsius</string>
+</resources>

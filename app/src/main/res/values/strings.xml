@@ -1,0 +1,48 @@
+<resources>
+    <string name="main_btnTemperatura_text">Conversor de temperatura</string>
+    <string name="app_name">Conversor 2.0</string>
+    <string name="main_btnMassa_text">Medidas de Massa</string>
+    <string name="main_btnComprimento_text">Medidas de Comprimento</string>
+    <string name="label_comprimento">Conversor de comprimento</string>
+    <string name="CFK">Conversor de temperatura</string>
+    <string name="label_massa">Conversor de massa</string>
+
+    <string name="resultado_celsius">Resultado celsius:</string>
+
+    <string name="resultado_fahrenheit">Resultado Fahrenheit:</string>
+
+    <string name="resultado_kelvin">Resultado Kelvin:</string>
+
+    <string name="converter_para">Converter para:</string>
+    <string name="converter_de">Converter de:</string>
+
+    <!--Comprimento layout -->
+    <string name="comprimento_valor_text">Valor:</string>
+    <string name="comprimento_de_text">De:</string>
+    <string name="comprimento_para_text">Para:</string>
+    <string name="comprimento_resultado_text">Resultado:</string>
+    <string name="comprimento_btnCalcular_text">Calcular</string>
+
+    <!--Comprimento -->
+    <string name="comprimento_centimetro">Centimetro</string>
+    <string name="comprimento_metro">Metro</string>
+    <string name="comprimento_quilometro">Quilometro</string>
+    <string name="comprimento_polegada">Polegada</string>
+    <string name="comprimento_pe">Pe</string>
+    <string name="comprimento_milha">Milha</string>
+    <string name="vlrinld">Valor inválido</string>
+
+    <!--Massa-->
+    <string name="massa_grama">Grama</string>
+    <string name="massa_quilograma">Quilograma</string>
+    <string name="massa_libra">Libra</string>
+    <string name="massa_onca">Onça</string>
+
+    <!--Temperatura-->
+    <string name="label_temperatura">Conversor de temperatura</string>
+    <string name="temp_kelvin">Kelvin</string>
+    <string name="temp_fahrenheit">Fahrenheit</string>
+    <string name="temp_celsius">Celsius</string>
+
+
+</resources>
